@@ -1,50 +1,24 @@
-# React + TypeScript + Vite
+# SecureVault
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![SecureVault 3D Title](https://github.com/nguyenthien0110/SecureVault/blob/main/src/assets/logo.webp)
 
-Currently, two official plugins are available:
+[Visit SecureVault](https://nguyenthien0110.github.io/SecureVault/)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+SecureVault is a secure and user-friendly platform designed to safeguard your sensitive information. Built with Vite, React, and TypeScript, it provides a smooth and efficient experience for managing personal data.
 
-## Expanding the ESLint configuration
+## Features
+- **High Security:** Uses encryption for protecting user data.
+- **Easy Access:** Responsive and intuitive design.
+- **Efficiency:** Powered by modern front-end technologies for fast performance.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## Usage
+1. Open the [SecureVault page](https://nguyenthien0110.github.io/SecureVault/).
+2. Follow prompts to create and store secure entries.
 
-- Configure the top-level `parserOptions` property like this:
+## Technologies
+- **Frameworks:** Vite, React
+- **Language:** TypeScript
+- **Hosting:** GitHub Pages
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
-
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
-
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
-
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+## License
+MIT License
