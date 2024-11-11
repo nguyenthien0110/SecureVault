@@ -1,11 +1,11 @@
 import "./App.css";
-import Test from "./components/Test";
-
+import SuccessNotification from "./components/common/SuccessNotification";
 
 function App() {
+  const isShow = true;
   return (
     <div>
-      <Test />
+      {isShow && <SuccessNotification />}
     </div>
   );
 }

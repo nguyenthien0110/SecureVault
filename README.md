@@ -1,6 +1,6 @@
 # SecureVault
 
-![SecureVault 3D Title](https://github.com/nguyenthien0110/SecureVault/blob/main/src/assets/logo.webp)
+![SecureVault 3D Title](https://github.com/nguyenthien0110/SecureVault/blob/main/src/assets/img/logo.webp)
 
 [Visit SecureVault](https://nguyenthien0110.github.io/SecureVault/)
 
